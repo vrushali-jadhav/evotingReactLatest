@@ -1,0 +1,90 @@
+.information
+{
+float:left; 
+width:65%;
+}
+
+.canvasphoto{
+float:right; 
+width:25%;
+}
+
+.otpblock{
+  font-size: 15px;
+}
+
+
+
+.information, .canvasphoto, .rightside
+{
+  font-family: Trebuchet MS, sans-serif;
+  font-size: 25px;
+  margin-right: 10px;
+  padding: 20px 0px;
+  margin-top:10px;
+}
+
+.videoclass
+{
+  width:250px;
+  height:200px;
+  border:1.5px solid;
+  border-right-color: #2eca6a;
+  border-bottom-color: #2eca6a;
+  border-top-color:#989898;
+  border-left-color: #989898;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.cp{
+  width: 30%;
+}
+
+.rg{
+    width: 35%;
+    margin-top: 0px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 15px;
+    height: 8%;
+    font-size: 25px;
+    color: black;
+    background-color: #2eca6a;
+    margin-bottom: 3%;
+    border: none;
+}
+
+.registerimagever{
+  background-image: url('./register.jpg'); 
+  background-position: right;
+  background-size: cover;
+  height: 450px;
+  margin-left:10%;
+  margin-top: 0px;
+  width:50%;
+  z-index: -1;
+  position: absolute;
+}
+
+.qoutetakephoto {
+  position: absolute;
+  border-radius: 5px;
+  z-index: 1;
+  background-color: #2eca6a;
+  width: 350px;
+  height: 140px;
+  padding:20px;
+  font-family: 'Poppins', sans-serif;
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 0px;
+  margin-top: 50px;
+}
+
+.qoutetakephoto p{
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  color: #565656;
+}
